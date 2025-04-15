@@ -1,0 +1,59 @@
+Metadata-Version: 2.4
+Name: SAM-2
+Version: 1.0
+Summary: SAM 2: Segment Anything in Images and Videos
+Home-page: https://github.com/facebookresearch/sam2
+Author: Meta AI
+Author-email: segment-anything@meta.com
+License: Apache 2.0
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=2.3.1
+Requires-Dist: torchvision>=0.18.1
+Requires-Dist: numpy>=1.24.4
+Requires-Dist: tqdm>=4.66.1
+Requires-Dist: hydra-core>=1.3.2
+Requires-Dist: iopath>=0.1.10
+Requires-Dist: pillow>=9.4.0
+Provides-Extra: notebooks
+Requires-Dist: matplotlib>=3.9.1; extra == "notebooks"
+Requires-Dist: jupyter>=1.0.0; extra == "notebooks"
+Requires-Dist: opencv-python>=4.7.0; extra == "notebooks"
+Requires-Dist: eva-decord>=0.6.1; extra == "notebooks"
+Provides-Extra: interactive-demo
+Requires-Dist: Flask>=3.0.3; extra == "interactive-demo"
+Requires-Dist: Flask-Cors>=5.0.0; extra == "interactive-demo"
+Requires-Dist: av>=13.0.0; extra == "interactive-demo"
+Requires-Dist: dataclasses-json>=0.6.7; extra == "interactive-demo"
+Requires-Dist: eva-decord>=0.6.1; extra == "interactive-demo"
+Requires-Dist: gunicorn>=23.0.0; extra == "interactive-demo"
+Requires-Dist: imagesize>=1.4.1; extra == "interactive-demo"
+Requires-Dist: pycocotools>=2.0.8; extra == "interactive-demo"
+Requires-Dist: strawberry-graphql>=0.243.0; extra == "interactive-demo"
+Provides-Extra: dev
+Requires-Dist: black==24.2.0; extra == "dev"
+Requires-Dist: usort==1.0.2; extra == "dev"
+Requires-Dist: ufmt==2.0.0b2; extra == "dev"
+Requires-Dist: fvcore>=0.1.5.post20221221; extra == "dev"
+Requires-Dist: pandas>=2.2.2; extra == "dev"
+Requires-Dist: scikit-image>=0.24.0; extra == "dev"
+Requires-Dist: tensorboard>=2.17.0; extra == "dev"
+Requires-Dist: pycocotools>=2.0.8; extra == "dev"
+Requires-Dist: tensordict>=0.5.0; extra == "dev"
+Requires-Dist: opencv-python>=4.7.0; extra == "dev"
+Requires-Dist: submitit>=1.5.1; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# SLM-SAM 2
+This is the official implementation of SLM-SAM 2
