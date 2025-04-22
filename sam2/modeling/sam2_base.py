@@ -192,6 +192,7 @@ class SAM2Base(torch.nn.Module):
         self.recent_memory_fuser = recent_memory_fuser
         self.recent_n = recent_n
         self.recent_memory_attention = recent_memory_attention
+        self.rec_num_maskmem = rec_num_maskmem
 
         if self.rec_num_maskmem is not None:
             self.rec_maskmem_tpos_enc = torch.nn.Parameter(
