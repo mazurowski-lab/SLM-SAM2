@@ -13,8 +13,8 @@ scratch:
 
 dataset:
   # PATHS to Dataset
-  img_folder:  # PATH to MOSE JPEGImages folder
-  gt_folder:   # PATH to MOSE Annotations folder
+  img_folder:  # PATH to JPEGImages folder
+  gt_folder:   # PATH to Annotations folder
   file_list_txt: 
   multiplier: 1
 
