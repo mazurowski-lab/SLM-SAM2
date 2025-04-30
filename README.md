@@ -50,7 +50,7 @@ DATA_DIRECTORY
 ├── test.txt
 ```
 
-Start finetuning by using:
+Start finetuning by running:
 
 ```
 CUDA_VISIBLE_DEVICES=[GPU_ID] python3 training/train.py \
@@ -60,6 +60,20 @@ CUDA_VISIBLE_DEVICES=[GPU_ID] python3 training/train.py \
 ```
 
 ### 3. Inference
+Propagate annotation by running:
+```
+CUDA_VISIBLE_DEVICES=[GPU_ID] python3 inference.py \
+    --test_img_folder [test image folder path] \
+    --test_mask_folder [test mask folder path] \
+    --checkpoint_folder [checkpoint path] \
+    --checkpoint_name [checkpoint file name] \
+    --cfg_name slm_sam2_hiera_t.yaml \
+    --test_txt_file [test text file path] \
+    --mask_prompt_dict [path to mask prompt dictionary] \
+    --output_folder [path of output folder, to save predictions] \
+```
 
+## License
+All codes in this repository is under [GPLv3](./LICENSE).
 
 
