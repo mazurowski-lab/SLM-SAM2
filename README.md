@@ -61,8 +61,7 @@ CUDA_VISIBLE_DEVICES=[GPU_ID] python3 training/train.py \
 
 ### 3. Inference
 Propagate annotation by running:
-```
-bash
+```bash
 CUDA_VISIBLE_DEVICES=[GPU_ID] python3 inference.py \
     --test_img_folder [test image folder path] \
     --test_mask_folder [test mask folder path] \
@@ -74,13 +73,11 @@ CUDA_VISIBLE_DEVICES=[GPU_ID] python3 inference.py \
     --output_folder [path of output folder, to save predictions] \
 ```
 
-```
-checkpoint_folder: directory that contains .pt file
-checkpoint_name: name of .pt file
-mask_prompt_dict: dictionary mapping each volume ID to the slice index used as the mask prompt (e.g., mask_prompt_dict[volume_id] = slice_index)
-```
+**checkpoint_folder**: directory that contains .pt file
+**checkpoint_name**: name of .pt file
+**mask_prompt_dict**: dictionary mapping each volume ID to the slice index used as the mask prompt (e.g., mask_prompt_dict[volume_id] = slice_index)
 
 ## License
-All codes in this repository is under [GPLv3](./LICENSE).
+All codes in this repository is under [GPLv3](./LICENSE) license.
 
 
