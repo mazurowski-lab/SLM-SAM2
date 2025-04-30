@@ -78,6 +78,6 @@ CUDA_VISIBLE_DEVICES=[GPU_ID] python3 inference.py \
 - **mask_prompt_dict**: dictionary mapping each volume ID to the slice index used as the mask prompt (e.g., mask_prompt_dict[volume_id] = slice_index)
 
 ## License
-All codes in this repository are under [GPLv3](./LICENSE) license.
+All codes in this repository are under [GPLv3](./LICENSE) license. 
 
 
