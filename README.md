@@ -3,7 +3,7 @@ This is the official implementation of SLM-SAM 2.
 
 [![arXiv Paper](https://img.shields.io/badge/arXiv-2403.10786-orange.svg?style=flat)]()
 
-#### By [Yuwen Chen](https://scholar.google.com/citations?user=61s49p0AAAAJ&hl=en)
+#### By [Yuwen Chen](https://scholar.google.com/citations?user=61s49p0AAAAJ&hl=en), [Zafer Yildiz](https://scholar.google.com.tr/citations?user=1ZAdy9QAAAAJ&hl=en), [Qihang Li](https://scholar.google.com/citations?user=Yw9_kMQAAAAJ&hl=en), [Yaqian Chen](https://scholar.google.com/citations?user=iegKFuQAAAAJ&hl=en), [Haoyu Dong](https://scholar.google.com/citations?user=eZVEUCIAAAAJ&hl=en), [Hanxue Gu](https://scholar.google.com/citations?user=aGjCpQUAAAAJ&hl=en), [Nicholas Konz](https://scholar.google.com/citations?user=a9rXidMAAAAJ&hl=en), [Maciej A. Mazurowski](https://scholar.google.com/citations?user=HlxjJPQAAAAJ&hl=zh-CN)
 
 ![image](./assets/pipeline.png)
 
