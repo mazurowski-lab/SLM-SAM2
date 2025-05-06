@@ -1,7 +1,7 @@
 # SLM-SAM2: Accelerating Volumetric Medical Image Annotation via Short-Long Memory SAM 2
 This is the official implementation of SLM-SAM 2.
 
-[![arXiv Paper](https://img.shields.io/badge/arXiv-2505.01854-orange.svg?style=flat)]()
+[![arXiv Paper](https://img.shields.io/badge/arXiv-2505.01854-orange.svg?style=flat)](https://www.arxiv.org/abs/2505.01854)
 
 #### By [Yuwen Chen](https://scholar.google.com/citations?user=61s49p0AAAAJ&hl=en), [Zafer Yildiz](https://scholar.google.com.tr/citations?user=1ZAdy9QAAAAJ&hl=en), [Qihang Li](https://scholar.google.com/citations?user=Yw9_kMQAAAAJ&hl=en), [Yaqian Chen](https://scholar.google.com/citations?user=iegKFuQAAAAJ&hl=en), [Haoyu Dong](https://scholar.google.com/citations?user=eZVEUCIAAAAJ&hl=en), [Hanxue Gu](https://scholar.google.com/citations?user=aGjCpQUAAAAJ&hl=en), [Nicholas Konz](https://scholar.google.com/citations?user=a9rXidMAAAAJ&hl=en), [Maciej A. Mazurowski](https://scholar.google.com/citations?user=HlxjJPQAAAAJ&hl=zh-CN)
 
