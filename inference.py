@@ -91,7 +91,8 @@ def inference(args):
                         out_obj_id: (out_mask_logits[i] > 0).cpu().numpy()
                         for i, out_obj_id in enumerate(out_obj_ids)
                     }
-            
+
+            os.makedirs(os.path.join(args.output_folder, vol_id), exist_ok=True)
             for out_frame_idx in range(0, len(frame_names)):
                 for i, (out_obj_id, out_mask) in enumerate(video_segments[out_frame_idx].items()):
                     out_mask = np.squeeze(out_mask).astype("uint8")
