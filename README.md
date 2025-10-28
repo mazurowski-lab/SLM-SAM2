@@ -5,7 +5,9 @@ This is the official implementation of SLM-SAM 2.
 
 #### By [Yuwen Chen](https://scholar.google.com/citations?user=61s49p0AAAAJ&hl=en), [Zafer Yildiz](https://scholar.google.com.tr/citations?user=1ZAdy9QAAAAJ&hl=en), [Qihang Li](https://scholar.google.com/citations?user=Yw9_kMQAAAAJ&hl=en), [Yaqian Chen](https://scholar.google.com/citations?user=iegKFuQAAAAJ&hl=en), [Haoyu Dong](https://scholar.google.com/citations?user=eZVEUCIAAAAJ&hl=en), [Hanxue Gu](https://scholar.google.com/citations?user=aGjCpQUAAAAJ&hl=en), [Nicholas Konz](https://scholar.google.com/citations?user=a9rXidMAAAAJ&hl=en), [Maciej A. Mazurowski](https://scholar.google.com/citations?user=HlxjJPQAAAAJ&hl=zh-CN)
 
-![image](./assets/pipeline.png)
+<p align="center">
+<img src=assets/propagation.gif />
+</p>
 
 ## News!
 
@@ -15,9 +17,7 @@ This is the official implementation of SLM-SAM 2.
 ## Introduction
 SLM-SAM 2 is a novel video object segmentation method that can accelerate volumetric medical image annotation by propagating annotations from a single slice to the remaining slices within volumes. By introducing a dynamic short-long memory module, SLM-SAM 2 shows improved segmentation performance on organs, bones and muscles across different imaging modalities (MRI, CT, Ultrasound videos) than SAM 2.
 
-<p align="center">
-<img src=assets/propagation.gif />
-</p>
+![image](./assets/pipeline.png)
 
 ![image](./assets/result_visual.png)
 
