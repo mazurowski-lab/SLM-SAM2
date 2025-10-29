@@ -1,5 +1,5 @@
 # SLM-SAM2: Accelerating Volumetric Medical Image Annotation via Short-Long Memory SAM 2
-This is the official implementation of SLM-SAM 2 (IEEE TMI).
+This is the official implementation of SLM-SAM 2 (**IEEE TMI**).
 
 [![arXiv Paper](https://img.shields.io/badge/arXiv-2505.01854-orange.svg?style=flat)](https://www.arxiv.org/abs/2505.01854)
 
